@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saifur Rahman - Python Automation Expert</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Matrix Background Effect -->
+    <div class="matrix-bg">
+        <canvas id="matrix-canvas"></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="terminal-prompt">saifur@dev:~$ </span>
+                <span class="typing-text">whoami</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">[home]</a>
+                <a href="#skills" class="nav-link">[skills]</a>
+                <a href="#projects" class="nav-link">[projects]</a>
+                <a href="#contact" class="nav-link">[contact]</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn close"></span>
+                        <span class="btn minimize"></span>
+                        <span class="btn maximize"></span>
+                    </div>
+                    <div class="terminal-title">saifur-portfolio.sh</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">root@saifur:~$ </span>
+                        <span class="command">cat /etc/hostname</span>
+                    </div>
+                    <div class="output">Saifur Rahman</div>
+
+                    <div class="terminal-line">
+                        <span class="prompt">root@saifur:~$ </span>
+                        <span class="command">cat /proc/version</span>
+                    </div>
+                    <div class="output">Python Automation Expert | Reverse Engineering Learner</div>
+                    <div class="output">AI & Technology Enthusiast</div>
+
+                    <div class="terminal-line">
+                        <span class="prompt">root@saifur:~$ </span>
+                        <span class="command">ls -la skills/</span>
+                    </div>
+                    <div class="output skills-output">
+                        <div class="skill-item">drwxr-xr-x python/automation/</div>
+                        <div class="skill-item">drwxr-xr-x reverse-engineering/</div>
+                        <div class="skill-item">drwxr-xr-x web-scraping/</div>
+                        <div class="skill-item">drwxr-xr-x api-development/</div>
+                    </div>
+
+                    <div class="terminal-line">
+                        <span class="prompt">root@saifur:~$ </span>
+                        <span class="command typing-cursor">█</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="comment"># Skills & Technologies</span>
+            </h2>
+
+            <div class="skills-grid">
+                <div class="skill-card python">
+                    <div class="card-header">
+                        <i class="fab fa-python"></i>
+                        <h3>Python Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Web Automation</span>
+                        <span class="tag">App Automation</span>
+                        <span class="tag">Web Scraping</span>
+                        <span class="tag">BeautifulSoup</span>
+                        <span class="tag">Selenium</span>
+                        <span class="tag">Requests</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card ai">
+                    <div class="card-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Model Integration</span>
+                        <span class="tag">Llama</span>
+                        <span class="tag">Experimentation</span>
+                        <span class="tag">Research</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card reverse">
+                    <div class="card-header">
+                        <i class="fas fa-bug"></i>
+                        <h3>Reverse Engineering</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">APK Patching</span>
+                        <span class="tag">API Extraction</span>
+                        <span class="tag">Frida</span>
+                        <span class="tag">Android Debug</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card api">
+                    <div class="card-header">
+                        <i class="fas fa-server"></i>
+                        <h3>API Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">Backend Systems</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack Badges -->
+            <div class="tech-badges">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+                <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+                <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+                <img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white" alt="Termux"/>
+                <img src="https://img.shields.io/badge/ADB-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="ADB"/>
+                <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+                <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="comment"># Recent Projects</span>
+            </h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-terminal">
+                        <div class="terminal-header">
+                            <span>automation-toolkit.py</span>
+                        </div>
+                        <div class="project-code">
+                            <span class="keyword">import</span> <span class="module">selenium</span><br>
+                            <span class="keyword">from</span> <span class="module">bs4</span> <span class="keyword">import</span> BeautifulSoup<br><br>
+                            <span class="keyword">def</span> <span class="function">automate_task</span>():<br>
+                            &nbsp;&nbsp;<span class="comment"># Advanced automation magic</span><br>
+                            &nbsp;&nbsp;<span class="keyword">return</span> <span class="string">"success"</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Web Automation Suite</h3>
+                        <p>Advanced Python automation tools for web scraping and task automation</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Selenium</span>
+                            <span>BeautifulSoup</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-terminal">
+                        <div class="terminal-header">
+                            <span>reverse-toolkit.py</span>
+                        </div>
+                        <div class="project-code">
+                            <span class="keyword">import</span> <span class="module">frida</span><br>
+                            <span class="keyword">import</span> <span class="module">subprocess</span><br><br>
+                            <span class="keyword">def</span> <span class="function">extract_api</span>(apk):<br>
+                            &nbsp;&nbsp;<span class="comment"># APK analysis & patching</span><br>
+                            &nbsp;&nbsp;<span class="keyword">return</span> endpoints
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Android RE Tools</h3>
+                        <p>Reverse engineering toolkit for Android app analysis and API extraction</p>
+                        <div class="project-tags">
+                            <span>Frida</span>
+                            <span>APK Analysis</span>
+                            <span>Android</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-terminal">
+                        <div class="terminal-header">
+                            <span>api-server.py</span>
+                        </div>
+                        <div class="project-code">
+                            <span class="keyword">from</span> <span class="module">fastapi</span> <span class="keyword">import</span> FastAPI<br><br>
+                            app = FastAPI()<br><br>
+                            <span class="decorator">@app.get</span>(<span class="string">"/api/data"</span>)<br>
+                            <span class="keyword">async def</span> <span class="function">get_data</span>():<br>
+                            &nbsp;&nbsp;<span class="keyword">return</span> {<span class="string">"status"</span>: <span class="string">"active"</span>}
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>FastAPI Backend</h3>
+                        <p>High-performance API systems with modern Python frameworks</p>
+                        <div class="project-tags">
+                            <span>FastAPI</span>
+                            <span>REST API</span>
+                            <span>Backend</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="comment"># Connect With Me</span>
+            </h2>
+
+            <div class="contact-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn close"></span>
+                        <span class="btn minimize"></span>
+                        <span class="btn maximize"></span>
+                    </div>
+                    <div class="terminal-title">contact-saifur.sh</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">visitor@portfolio:~$ </span>
+                        <span class="command">curl -X GET https://saifur.dev/contact</span>
+                    </div>
+                    <div class="contact-links">
+                        <div class="contact-item">
+                            <span class="contact-key">"github":</span>
+                            <a href="https://github.com/saifurrdev" target="_blank" class="contact-link">
+                                <i class="fab fa-github"></i> "github.com/saifurrdev"
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-key">"facebook":</span>
+                            <a href="https://facebook.com/saifurr.dev" target="_blank" class="contact-link">
+                                <i class="fab fa-facebook"></i> "facebook.com/saifurr.dev"
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-key">"twitter":</span>
+                            <a href="https://x.com/saifurr_dev" target="_blank" class="contact-link">
+                                <i class="fab fa-x-twitter"></i> "x.com/saifurr_dev"
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-key">"status":</span>
+                            <span class="status-online">"available_for_projects"</span>
+                        </div>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">visitor@portfolio:~$ </span>
+                        <span class="command typing-cursor">█</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <span class="prompt">root@saifur:~$ </span>
+                    <span>echo "Thanks for visiting!"</span>
+                </div>
+                <div class="footer-right">
+                    <span><script>document.write(new Date().getFullYear())</script> © Crafted with ❤️ and lots of ☕</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
