@@ -300,7 +300,7 @@ class LoadingAnimation {
             ">
                 <div>
                     <div style="text-align: center; margin-bottom: 20px;">
-                        Loading Saifur's Portfolio...
+                        Loading Portfolio...
                     </div>
                     <div style="
                         width: 300px;
